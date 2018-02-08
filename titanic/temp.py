@@ -12,8 +12,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-train=pd.read_csv("/Users/siddharth/Desktop/titanic/train.csv")
-test=pd.read_csv("/Users/siddharth/Desktop/titanic/test.csv")
+train=pd.read_csv("/Users/siddharth/Desktop/btp/BTP/titanic/train.csv")
+test=pd.read_csv("/Users/siddharth/Desktop/btp/BTP/titanic/test.csv")
 
 
 print(train.isnull().sum())
